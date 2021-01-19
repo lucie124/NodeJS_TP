@@ -1,7 +1,7 @@
 var express = require('express'); //import de la bibliothèque Express
 var app = express(); //instanciation d'une application Express
 
-var allMsgs = ["Hello World", "foobar", "CentraleSupelec Forever"]
+var allMsgs = ["I want to be rich!", "Find a good job", "No more COVID!", "Eat chocolates!", "Happy everyday"]
 
 // Pour s'assurer que l'on peut faire des appels AJAX au serveur
 app.use(function(req, res, next) {
